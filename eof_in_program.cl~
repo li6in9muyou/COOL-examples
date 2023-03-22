@@ -1,0 +1,16 @@
+class Main inherits IO {
+   main(): SELF_TYPE {
+	out_string("Hello, World.\n").
+    out_string("\t\tLi6q\n")
+    -- There is more to come
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
