@@ -9,6 +9,7 @@ class Hello {
         d: Object  => { expr3; expr4; };
       esac
    };
+   EnsureRecovered;
    
    bar() :Int {
       6
