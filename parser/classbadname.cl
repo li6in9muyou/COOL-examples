@@ -3,6 +3,7 @@ class test {
   bar():Int {5};
 };
 
-class recover {
+class Recover {
+  foo:test;
 };
 
