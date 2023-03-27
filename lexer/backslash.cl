@@ -2,6 +2,6 @@
 
 "\"this is still inside the string"
 
-"I'm about to excape a newline \
+"I'm about to escape a newline \
 "
 
