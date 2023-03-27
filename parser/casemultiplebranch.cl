@@ -10,6 +10,6 @@ class Test {
         d: Object  => BAD;
       esac
   };
-  EnsureRecovered;
+  ThisErrorIsExpected;
 };
 

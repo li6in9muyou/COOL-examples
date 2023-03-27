@@ -9,7 +9,7 @@ class Hello {
         d: Object  => { expr3; expr4; };
       esac
    };
-   EnsureRecovered;
+   ThisErrorIsExpected;
    
    bar() :Int {
       6
