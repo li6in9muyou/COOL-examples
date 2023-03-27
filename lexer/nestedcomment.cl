@@ -1,3 +1,3 @@
-(* XXX (* XXX *) XXX *) 
-(* XXX (* YYY *)
-(* ZZZ *) XXX *)
+(* AAA (* BBB *) CCC *) 
+(* DDD (* EEE *)
+(* FFF *) GGG *)
