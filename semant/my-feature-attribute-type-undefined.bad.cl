@@ -9,10 +9,10 @@ class B inherits A {
 
 class A {
     a:Bad<-99;
-    c:C;
+    c:SELF_TYPE;
     b() : Int {1};
 };
 
 class Main {   
-    main(): SELF_TYPE {self};
+    main(): Int {42};
 };

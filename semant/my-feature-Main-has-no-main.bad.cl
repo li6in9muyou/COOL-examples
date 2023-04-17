@@ -4,4 +4,5 @@ class Main{
 
 class A {
     main(): Bool {false};
+    error: Expected;
 };
