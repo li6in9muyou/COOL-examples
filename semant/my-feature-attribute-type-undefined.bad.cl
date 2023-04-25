@@ -5,6 +5,8 @@ class C {
 
 class B inherits A {
     bbb:AA<-"Bad";
+    b:Int <- bbb;
+    error:Expected;
 };
 
 class A {
