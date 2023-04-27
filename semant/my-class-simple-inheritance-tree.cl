@@ -12,3 +12,5 @@ class AAA inherits AA {
 
 class AAB inherits AA {
 };
+
+class Main {main():Int{1};};
