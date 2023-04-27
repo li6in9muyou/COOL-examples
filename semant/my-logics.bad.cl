@@ -14,8 +14,22 @@ class Main {
         true=(8=9);
         true=(10+11);
 
+        1<true;
+        2=true;
+        3<=true;
+        true<"false";
+        true="false";
+        true<="false";
+
+        (new A)=(new B);
+        (new A)<false;
+        (new A)<=(new B);
+        (new A)=false;
+        (new A)<=false;
+
         true;
     }};
 };
 
 class A {};
+class B {};
