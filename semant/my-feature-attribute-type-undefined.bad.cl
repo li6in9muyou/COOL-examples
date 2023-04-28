@@ -5,15 +5,18 @@ class C {
 };
 
 class B inherits A {
-    bbb:AA <- "Bad";
+    bbb:AA <- 1 + false;
     b:Int <- bbb;
-    error:Expected;
+
+    f():Int {
+        bbb
+    };
 };
 
 class A {
     a:Bad <- 99;
     c:SELF_TYPE;
-    b() : Int {1};
+    b():Int {1};
 };
 
 class Main {   
