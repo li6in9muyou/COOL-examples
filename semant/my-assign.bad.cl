@@ -9,6 +9,10 @@ class Main {
     };
     d:Int <- new A;
     e:Int;
+    f:Bool <- {
+        a <- 2;
+        false;
+    };
 
     one():Int {{
         a <- 2;
@@ -20,6 +24,7 @@ class Main {
         d <- new A;
         e <- 5;
         e <- false;
+        f <- true;
         
         5;
     }};
