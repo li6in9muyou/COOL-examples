@@ -5,12 +5,9 @@ class C {
 };
 
 class B inherits A {
-    bbb:AA <- 1 + false;
+    bbb:Bad <- 1 + false;
+    bb:Bad;
     b:Int <- bbb;
-
-    f():Int {
-        bbb
-    };
 };
 
 class A {

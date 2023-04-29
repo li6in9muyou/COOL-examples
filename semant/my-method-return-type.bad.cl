@@ -10,4 +10,13 @@ class Main {
     };
     
     returnTypeMismatch():Bool {3};
+
+
+    -- it should do return type conform check even if body fails
+    f():Bool {
+        no <- 7
+    };
+    h():Bool {
+        new Bad
+    };
 };

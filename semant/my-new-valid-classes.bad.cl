@@ -5,6 +5,13 @@ class Main {
         new Bad;
         self;
     }};
+
+    f():A {
+        new A
+    };
+    g():Main {
+        new Bad
+    };
 };
 
 class A inherits Main {};
