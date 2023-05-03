@@ -29,6 +29,9 @@ class Main inherits IO {
         a.f(1);
         a.b();
         a.b(1);
+        (new Bad).a();
+        (1+false).a();
+        1.a();
         
         self;
     }};
